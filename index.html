@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0f172a" />
+  <title>ENTOMON PRO – Simulador Universitário de Entomologia Agrícola</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>ENTOMON PRO</h1>
+    <p>Simulador Universitário de Entomologia Agrícola</p>
+  </header>
+
+  <nav class="navbar" id="navbar">
+    <button data-route="home" class="active">Início</button>
+    <button data-route="atlas">Atlas Morfológico</button>
+    <button data-route="taxonomia">Banco Taxonômico</button>
+    <button data-route="chave">Chave Dicotômica</button>
+    <button data-route="laboratorio">Laboratório</button>
+    <button data-route="simulado">Simulado</button>
+    <button data-route="dashboard">Dashboard</button>
+  </nav>
+
+  <main id="app" class="app"></main>
+
+  <template id="card-template">
+    <article class="card"></article>
+  </template>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
