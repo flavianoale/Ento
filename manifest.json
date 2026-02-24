@@ -1,0 +1,9 @@
+{
+  "name": "ENTOMON PRO – Simulador Universitário de Entomologia Agrícola",
+  "short_name": "ENTOMON PRO",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#0f172a",
+  "background_color": "#0b1020"
+}
